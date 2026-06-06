@@ -3,7 +3,7 @@ package basicSorts;
 import java.util.Arrays;
 
 public class insertionSort {
-    static void main() {
+    public static void main(String args[]) {
         int[] arr={4,3,2,1};
         insertion(arr);
         System.out.println(Arrays.toString(arr));
